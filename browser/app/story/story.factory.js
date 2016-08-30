@@ -12,7 +12,7 @@ app.factory('Story', function ($http) {
   };
 
   Story.prototype.isNew = function () {
-    return !this.id
+    return !this.id;
   };
 
   Story.prototype.fetch = function () {
